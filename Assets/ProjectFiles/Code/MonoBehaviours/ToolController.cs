@@ -1,21 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace PointnClick
 {
-    public class ToolController : MonoBehaviour
+    public class ToolController : MonoBehaviour, IDraggable
     {
-        // Start is called before the first frame update
-        void Start()
+        private bool m_isClicked;
+
+        public void OnMouseDown() => m_isClicked = true;
+
+        public void OnMouseDrag()
         {
-        
+            if (!m_isClicked) return;
+
+            Vector2 newPosition = GetWorldMousePosition(Input.mousePosition);
+
+            transform.position = newPosition;
         }
 
-        // Update is called once per frame
-        void Update()
+        private Vector2 GetWorldMousePosition(Vector3 virtualMousePosition)
         {
-        
+            Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(virtualMousePosition);
+
+            return new Vector2(worldMousePosition.x, worldMousePosition.y);
         }
+
+        public void OnMouseUp() => m_isClicked = false;
     }
 }

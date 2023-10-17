@@ -1,21 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace PointnClick
 {
-    public class IDraggable : MonoBehaviour
+    public interface IDraggable
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        public void OnMouseDown();
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+        public void OnMouseDrag();
+
+        public void OnMouseUp();
     }
 }

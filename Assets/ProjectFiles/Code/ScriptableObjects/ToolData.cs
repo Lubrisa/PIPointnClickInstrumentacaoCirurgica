@@ -18,5 +18,8 @@ namespace PointnClick
         [SerializeField] private OperationType m_operationType;
 
         [SerializeField] private Sprite m_toolSprite;
+
+        public OperationType GetOperationType { get { return m_operationType; } }
+        public Sprite ToolSprite { get { return m_toolSprite; } }
     }
 }

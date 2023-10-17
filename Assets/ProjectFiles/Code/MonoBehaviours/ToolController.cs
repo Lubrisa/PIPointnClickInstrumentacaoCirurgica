@@ -1,17 +1,30 @@
+using System.Collections;
 using UnityEngine;
 
 namespace PointnClick
 {
     public class ToolController : MonoBehaviour, IDraggable
     {
-        private bool m_isClicked;
+        private OperationType m_operationType;
+        private Vector2 m_initialPosition;
+        public Vector2 CurrentPosition { get; set; }
 
-        public void OnMouseDown() => m_isClicked = true;
+        public void Initialize(ToolData toolData, Vector2 initialPosition)
+        {
+            SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
+
+            m_initialPosition = initialPosition;
+            m_operationType = toolData.GetOperationType;
+            spriteRenderer.sprite = toolData.ToolSprite;
+        }
+
+        public IEnumerator MoveTowards()
+        {
+            yield return new WaitForSeconds(1f);
+        }
 
         public void OnMouseDrag()
         {
-            if (!m_isClicked) return;
-
             Vector2 newPosition = GetWorldMousePosition(Input.mousePosition);
 
             transform.position = newPosition;
@@ -23,7 +36,5 @@ namespace PointnClick
 
             return new Vector2(worldMousePosition.x, worldMousePosition.y);
         }
-
-        public void OnMouseUp() => m_isClicked = false;
     }
 }

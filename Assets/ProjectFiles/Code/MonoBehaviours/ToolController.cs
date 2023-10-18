@@ -13,6 +13,7 @@ namespace PointnClick
             SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
 
             CurrentPosition = initialPosition;
+            transform.position = initialPosition;
             m_operationType = toolData.GetOperationType;
             spriteRenderer.sprite = toolData.ToolSprite;
         }

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ToolName 16
   m_EditorClassIdentifier: 
   m_operationType: 3
-  m_toolSprite: {fileID: 0}
+  m_toolSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}

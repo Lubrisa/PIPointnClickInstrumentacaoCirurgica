@@ -40,7 +40,7 @@ namespace PointnClick
 
             for (int i = 0; i < quantity; i++)
             {
-                int index = new System.Random().Next(0, itemPool.Count);
+                int index = new System.Random().Next(0, toolsPool.Count);
                 finalPool.Add(toolsPool[index]);
                 toolsPool.Remove(toolsPool[index]);
             }
@@ -83,8 +83,10 @@ namespace PointnClick
             int row = index / rowsQuantity;
             int column = index % rowsQuantity;
 
-            float xPosition = deltas.x * row;
-            float yPosition = deltas.y * column;
+            float xPosition = startPosition.x + deltas.x * column;
+            float yPosition = startPosition.y + deltas.y * row;
+
+            Debug.Log("X: " + xPosition + " Y: " + yPosition);
 
             return new Vector2(xPosition, yPosition);
         }

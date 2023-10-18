@@ -294,7 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_startPosition: {x: -7, y: 3}
   m_deltas: {x: 1.5, y: -1.5}
-  m_rowsQuantity: 8
+  m_rowsQuantity: 6
   m_toolPrefab: {fileID: 5438964351402121980, guid: 1298fe025fcf10749ae1b969bb20454b, type: 3}
   m_remainingLives: 3
 --- !u!1 &495683632

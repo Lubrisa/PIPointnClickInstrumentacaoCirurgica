@@ -1,21 +1,52 @@
 using System.Collections;
-using System.Collections.Generic;
+using ScriptableObjectArchitecture;
 using UnityEngine;
 
 namespace PointnClick
 {
     public class GameOptionsHolder : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
+        public GameOptionsHolder Instance { get; private set; }
+
+        private OperationType m_operationType;
+        private int m_toolsQuantity;
+
+        private void Awake()
         {
-        
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(Instance);
+            }
+            else if (Instance != this) Destroy(gameObject);
         }
 
-        // Update is called once per frame
-        void Update()
+        public void SaveOperationTypeData(ToolData data) => m_operationType = data.GetOperationType;
+
+        public void SaveDifficultyData(int data) => m_toolsQuantity = data;
+
+        public GameData GetData()
         {
-        
+            StartCoroutine(AutoDestroy());
+            return new GameData(m_operationType, m_toolsQuantity);
+        }
+
+        private IEnumerator AutoDestroy()
+        {
+            yield return new WaitForSeconds(1f);
+            Destroy(gameObject);
+        }
+    }
+
+    public class GameData
+    {
+        public OperationType Operation { get; set; }
+        public int ToolsQuantity { get; set; }
+
+        public GameData(OperationType operationType, int toolsQuantity)
+        {
+            Operation = operationType;
+            ToolsQuantity = toolsQuantity;
         }
     }
 }

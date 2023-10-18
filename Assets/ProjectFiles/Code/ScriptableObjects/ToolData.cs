@@ -2,6 +2,9 @@ using UnityEngine;
 
 namespace PointnClick
 {
+    /// <summary>
+    /// A surgery type.
+    /// </summary>
     public enum OperationType
     {
         A,

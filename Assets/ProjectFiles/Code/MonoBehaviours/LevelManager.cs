@@ -7,7 +7,7 @@ namespace PointnClick
     {
         private int m_remainingLives;
 
-        private void Init(List<ToolData> toolsData)
+        private void Initialize(List<ToolData> toolsData)
         {
 
         }

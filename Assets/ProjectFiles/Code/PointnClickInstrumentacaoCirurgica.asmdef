@@ -3,7 +3,8 @@
     "rootNamespace": "PointnClick",
     "references": [
         "GUID:63ebd60d5c68886498ecfee04b5d6a12",
-        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:41524c21c95e5fe4dbc5b48bd21995a4"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

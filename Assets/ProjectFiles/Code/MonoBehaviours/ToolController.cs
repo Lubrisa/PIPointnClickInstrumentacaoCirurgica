@@ -6,21 +6,24 @@ namespace PointnClick
     public class ToolController : MonoBehaviour, IDraggable
     {
         private OperationType m_operationType;
-        private Vector2 m_initialPosition;
-        public Vector2 CurrentPosition { get; set; }
+        public Vector2 CurrentPosition { get; private set; }
 
         public void Initialize(ToolData toolData, Vector2 initialPosition)
         {
             SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
 
-            m_initialPosition = initialPosition;
+            CurrentPosition = initialPosition;
             m_operationType = toolData.GetOperationType;
             spriteRenderer.sprite = toolData.ToolSprite;
         }
 
         public IEnumerator MoveTowards()
         {
-            yield return new WaitForSeconds(1f);
+            while (Vector2.Distance(transform.position, CurrentPosition) > 0.1f)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, CurrentPosition, 0.1f);
+                yield return new WaitForSeconds(1f);
+            }
         }
 
         public void OnMouseDrag()
@@ -35,6 +38,12 @@ namespace PointnClick
             Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(virtualMousePosition);
 
             return new Vector2(worldMousePosition.x, worldMousePosition.y);
+        }
+
+        public void SetNewPosition(Vector2 newPosition)
+        {
+            CurrentPosition = newPosition;
+            StartCoroutine(MoveTowards());
         }
     }
 }

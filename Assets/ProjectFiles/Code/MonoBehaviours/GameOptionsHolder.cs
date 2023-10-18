@@ -6,7 +6,7 @@ namespace PointnClick
 {
     public class GameOptionsHolder : MonoBehaviour
     {
-        public GameOptionsHolder Instance { get; private set; }
+        public static GameOptionsHolder Instance { get; private set; }
 
         private OperationType m_operationType;
         private int m_toolsQuantity;

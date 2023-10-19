@@ -6,15 +6,23 @@ using Zenject;
 
 namespace PointnClick
 {
-    public class LevelManager : MonoBehaviour
+    public class ToolInstantiator : MonoBehaviour, IContainer
     {
+        public static ToolInstantiator Instance;
+
+        [SerializeField] private List<ToolController> m_toolsList = new();
+
         [SerializeField] private Vector2 m_startPosition;
         [SerializeField] private Vector2 m_deltas;
         [SerializeField] private int m_rowsQuantity;
 
         [SerializeField] private ToolController m_toolPrefab;
 
-        [SerializeField] private int m_remainingLives = 3;
+        private void Awake()
+        {
+            if (Instance is null) Instance = this;
+            else if (Instance != this) Destroy(gameObject);
+        }
 
         [Inject]
         private void Initialize(List<ToolData> toolsData, OperationType operationType, int toolsQuantity)
@@ -74,11 +82,12 @@ namespace PointnClick
             for (int i = 0; i < positionList.Length; i++)
             {
                 ToolController tool = Instantiate(m_toolPrefab);
+                m_toolsList.Add(tool);
                 tool.Initialize(positionList[i], GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, i));
             }
         }
 
-        private Vector2 GenerateCoordinates(Vector2 startPosition, Vector2 deltas, int rowsQuantity, int index)
+        public Vector2 GenerateCoordinates(Vector2 startPosition, Vector2 deltas, int rowsQuantity, int index)
         {
             int row = index / rowsQuantity;
             int column = index % rowsQuantity;
@@ -86,29 +95,28 @@ namespace PointnClick
             float xPosition = startPosition.x + deltas.x * column;
             float yPosition = startPosition.y + deltas.y * row;
 
-            Debug.Log("X: " + xPosition + " Y: " + yPosition);
-
             return new Vector2(xPosition, yPosition);
         }
 
-        private void CheckAnswer()
+        public void AddTool(ToolController tool)
         {
+            if (m_toolsList.Contains(tool)) return;
 
+            m_toolsList.Add(tool);
+            tool.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
         }
 
-        private void Win()
+        public void RemoveTool(ToolController tool)
         {
+            if (!m_toolsList.Contains(tool)) return;
 
-        }
-
-        private void DealDamage()
-        {
-
-        }
-
-        private void Lose()
-        {
-
+            m_toolsList.Remove(tool);
+            for (int i = 0; i < m_toolsList.Count; i++)
+            {
+                ToolController controller = m_toolsList[i];
+                controller.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, i));
+                controller.Move();
+            }
         }
     }
 }

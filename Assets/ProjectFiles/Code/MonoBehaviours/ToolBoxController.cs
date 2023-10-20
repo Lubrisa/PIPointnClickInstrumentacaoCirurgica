@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using ScriptableObjectArchitecture;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Zenject;
 
 namespace PointnClick
@@ -10,9 +10,10 @@ namespace PointnClick
     {
         public static ToolBoxController Instance;
 
-        private int m_maxToolQuantity;
+        private int m_maxToolCapacity;
         private OperationType m_operationType;
         [SerializeField] private BoolGameEvent m_onBoxChange;
+        [SerializeField] private StringGameEvent m_onToolListUpdate;
 
         [SerializeField] private GameEvent m_onWrongAnswer;
         [SerializeField] private GameEvent m_onRightAnswer;
@@ -30,9 +31,9 @@ namespace PointnClick
         }
 
         [Inject]
-        private void Initialize(int maxQuantity, OperationType operationType)
+        private void Initialize(int rightToolsQuantity, OperationType operationType)
         {
-            m_maxToolQuantity = maxQuantity - 5;
+            m_maxToolCapacity = rightToolsQuantity;
             m_operationType = operationType;
         }
 
@@ -49,13 +50,14 @@ namespace PointnClick
 
         public void AddTool(ToolController tool)
         {
-            if (m_toolsList.Contains(tool) || m_toolsList.Count == m_maxToolQuantity) return;
+            if (m_toolsList.Contains(tool) || m_toolsList.Count == m_maxToolCapacity) return;
 
             m_toolsList.Add(tool);
             ToolInstantiator.Instance.RemoveTool(tool);
             tool.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
 
-            m_onBoxChange.Raise(m_toolsList.Count == m_maxToolQuantity);
+            m_onBoxChange.Raise(m_toolsList.Count == m_maxToolCapacity);
+            m_onToolListUpdate.Raise(ToolsLeftText());
         }
 
         public void RemoveTool(ToolController tool)
@@ -73,6 +75,7 @@ namespace PointnClick
             }
 
             m_onBoxChange.Raise(false);
+            m_onToolListUpdate.Raise(ToolsLeftText());
         }
 
         public void CheckAnswer()
@@ -86,7 +89,7 @@ namespace PointnClick
                 }
 
             if (answerIsRight)
-                m_onRightAnswer.Raise();
+                SceneManager.LoadScene(5); //m_onRightAnswer.Raise();
             else
             {
                 m_onWrongAnswer.Raise();
@@ -101,5 +104,7 @@ namespace PointnClick
 
             m_onBoxChange.Raise(false);
         }
+
+        private string ToolsLeftText() => $"{m_maxToolCapacity}/{m_toolsList.Count}";
     }
 }

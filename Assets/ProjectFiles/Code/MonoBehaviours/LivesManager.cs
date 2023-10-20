@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace PointnClick
 {
@@ -13,9 +14,14 @@ namespace PointnClick
             transform.GetChild(m_remainingLives - 1).gameObject.SetActive(false);
             m_remainingLives--;
 
-            if (m_remainingLives == 0)
-            {
-            }
+            CheckGameOver();
+        }
+
+        private void CheckGameOver()
+        {
+            if (!(m_remainingLives == 0)) return;
+
+            SceneManager.LoadScene(4);
         }
     }
 }

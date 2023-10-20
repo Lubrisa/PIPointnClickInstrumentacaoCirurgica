@@ -27,7 +27,7 @@ namespace PointnClick
         [Inject]
         private void Initialize(List<ToolData> toolsData, OperationType operationType, int toolsQuantity)
         {
-            ToolData[] toolPool = GenerateToolPool(toolsData, operationType, toolsQuantity);
+            ToolData[] toolPool = GenerateToolPool(toolsData, operationType, toolsQuantity * 3);
 
             InstantiateTools(toolPool);
         }

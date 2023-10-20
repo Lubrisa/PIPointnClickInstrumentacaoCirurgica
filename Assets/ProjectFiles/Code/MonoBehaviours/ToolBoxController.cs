@@ -112,7 +112,7 @@ namespace PointnClick
             m_onBoxChange.Raise(false);
         }
 
-        private string ToolsLeftText() => $"{m_maxToolCapacity}/{m_toolsList.Count}";
+        private string ToolsLeftText() => $"{m_toolsList.Count}/{m_maxToolCapacity}";
 
         private void ClearInstance(Scene current) => Instance = null;
     }

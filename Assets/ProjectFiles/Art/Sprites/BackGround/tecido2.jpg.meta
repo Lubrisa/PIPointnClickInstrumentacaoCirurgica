@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: db770c5a19f4d5b45a0843f0cb233c45
+guid: ba470633f62a50640b60818e75d81fb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6307737054758822842
-    second: "Pin\xE7a Kocher Reta_0"
+      213: 7759739676517791049
+    second: tecido2_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -130,29 +130,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pin\xE7a Kocher Reta_0"
+      name: tecido2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 563
+        height: 375
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab3e7757e65998750800000000000000
-      internalID: 6307737054758822842
+      spriteID: 945f8587f1220bb60800000000000000
+      internalID: 7759739676517791049
       vertices: []
       indices: 
       edges: []
@@ -176,8 +164,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Pin\xE7a Kocher Reta_0": 6307737054758822842
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

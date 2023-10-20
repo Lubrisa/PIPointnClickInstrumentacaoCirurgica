@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2f9846e2f889d224ea35e81013591477
+guid: 9cdadfa768c43614c82d4427609ab999
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9083407294572604457
-    second: "Pin\xE7a Dente de Rato com Dentes_0"
+      213: -999292390665846170
+    second: tecido_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -130,29 +130,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pin\xE7a Dente de Rato com Dentes_0"
+      name: tecido_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 800
-        height: 800
+        width: 1920
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92c2137fecebe0e70800000000000000
-      internalID: 9083407294572604457
+      spriteID: 6628c9b7ddcc122f0800000000000000
+      internalID: -999292390665846170
       vertices: []
       indices: 
       edges: []
@@ -176,8 +164,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Pin\xE7a Dente de Rato com Dentes_0": 9083407294572604457
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

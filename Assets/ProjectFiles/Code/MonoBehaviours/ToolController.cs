@@ -20,11 +20,14 @@ namespace PointnClick
 
         public IEnumerator MoveTowards()
         {
-            yield return new WaitForEndOfFrame();
+            float movementTime = 2f;
+            float currentMovementTime = 0f;
 
             while (Vector2.Distance(transform.position, m_currentPosition) > 0.1f)
             {
-                transform.position = Vector2.MoveTowards(transform.position, m_currentPosition, 0.1f);
+                currentMovementTime += Time.deltaTime;
+                transform.position = Vector2.Lerp(transform.position, m_currentPosition, currentMovementTime / movementTime);
+                yield return new WaitForEndOfFrame();
             }
         }
 
@@ -61,11 +64,7 @@ namespace PointnClick
                 controller.RemoveTool(this);
         }
 
-        public void SetNewPosition(Vector2 newPosition)
-        {
-            Debug.Log(newPosition);
-            m_currentPosition = newPosition;
-        }
+        public void SetNewPosition(Vector2 newPosition) => m_currentPosition = newPosition;
 
         public void Move() => StartCoroutine(MoveTowards());
     }

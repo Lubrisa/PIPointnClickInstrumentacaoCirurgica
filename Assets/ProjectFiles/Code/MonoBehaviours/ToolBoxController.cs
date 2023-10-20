@@ -12,6 +12,10 @@ namespace PointnClick
 
         private int m_maxToolQuantity;
         private OperationType m_operationType;
+        [SerializeField] private BoolGameEvent m_onBoxChange;
+
+        [SerializeField] private GameEvent m_onWrongAnswer;
+        [SerializeField] private GameEvent m_onRightAnswer;
 
         private List<ToolController> m_toolsList = new();
 
@@ -50,6 +54,8 @@ namespace PointnClick
             m_toolsList.Add(tool);
             ToolInstantiator.Instance.RemoveTool(tool);
             tool.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
+
+            m_onBoxChange.Raise(m_toolsList.Count == m_maxToolQuantity);
         }
 
         public void RemoveTool(ToolController tool)
@@ -65,11 +71,35 @@ namespace PointnClick
                 controller.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, i));
                 controller.Move();
             }
+
+            m_onBoxChange.Raise(false);
         }
 
-        private void CheckTools()
+        public void CheckAnswer()
         {
+            bool answerIsRight = true;
+            foreach (var item in m_toolsList)
+                if (item.OperationType != m_operationType)
+                {
+                    answerIsRight = false;
+                    break;
+                }
 
+            if (answerIsRight)
+                m_onRightAnswer.Raise();
+            else
+            {
+                m_onWrongAnswer.Raise();
+                for (int i = m_toolsList.Count - 1; i >= 0; i--)
+                {
+                    ToolController tool = m_toolsList[i];
+                    m_toolsList.Remove(tool);
+                    ToolInstantiator.Instance.AddTool(tool);
+                    tool.Move();
+                }
+            }
+
+            m_onBoxChange.Raise(false);
         }
     }
 }

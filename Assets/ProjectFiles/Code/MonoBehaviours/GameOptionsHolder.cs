@@ -21,7 +21,7 @@ namespace PointnClick
             else if (Instance != this) Destroy(gameObject);
         }
 
-        public void SaveOperationTypeData(ToolData data) => m_operationType = data.GetOperationType;
+        public void SaveOperationTypeData(ToolData data) => m_operationType = data.OperationsTypes[0];
 
         public void SaveDifficultyData(int data) => m_toolsQuantity = data;
 

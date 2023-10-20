@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
-  m_Name: ToolName 17
+  m_Script: {fileID: 11500000, guid: d315e0b31d04a074e89c0e5e55e9de48, type: 3}
+  m_Name: onBoxToolListUpdate
   m_EditorClassIdentifier: 
-  m_operationsTypes: 04000000
-  m_toolSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  _debugValue: 

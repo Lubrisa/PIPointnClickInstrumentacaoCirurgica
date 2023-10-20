@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
   m_Name: OperationTypeC
   m_EditorClassIdentifier: 
-  m_operationType: 2
+  m_operationsTypes: 02000000
   m_toolSprite: {fileID: 0}

@@ -1,11 +1,12 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 namespace PointnClick
 {
     public class ToolController : MonoBehaviour, IDraggable
     {
-        public OperationType OperationType { get; private set; }
+        private OperationType[] m_operationsTypes;
         private Vector2 m_currentPosition;
 
         public void Initialize(ToolData toolData, Vector2 initialPosition)
@@ -14,7 +15,7 @@ namespace PointnClick
             transform.position = initialPosition;
 
             m_currentPosition = initialPosition;
-            OperationType = toolData.GetOperationType;
+            m_operationsTypes = toolData.OperationsTypes;
             spriteRenderer.sprite = toolData.ToolSprite;
         }
 
@@ -67,5 +68,8 @@ namespace PointnClick
         public void SetNewPosition(Vector2 newPosition) => m_currentPosition = newPosition;
 
         public void Move() => StartCoroutine(MoveTowards());
+
+        public bool CheckOperationMatch(OperationType operationToCompare) =>
+            m_operationsTypes.All(operation => operation == operationToCompare);
     }
 }

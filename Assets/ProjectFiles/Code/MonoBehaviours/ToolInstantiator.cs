@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ModestTree;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Zenject;
 
 namespace PointnClick
@@ -11,6 +12,7 @@ namespace PointnClick
         public static ToolInstantiator Instance;
 
         [SerializeField] private List<ToolController> m_toolsList = new();
+        [SerializeField] private int m_maxToolModifier;
 
         [SerializeField] private Vector2 m_startPosition;
         [SerializeField] private Vector2 m_deltas;
@@ -25,17 +27,26 @@ namespace PointnClick
         }
 
         [Inject]
-        private void Initialize(List<ToolData> toolsData, OperationType operationType, int toolsQuantity)
+        private void Initialize(List<ToolData> toolsData, OperationType operationType, int rightToolsQuantity)
         {
-            ToolData[] toolPool = GenerateToolPool(toolsData, operationType, toolsQuantity * 3);
+            ToolData[] toolPool = GenerateToolPool(toolsData, operationType, rightToolsQuantity);
 
             InstantiateTools(toolPool);
+
+            SceneManager.sceneUnloaded += ClearInstance;
         }
 
-        private ToolData[] GenerateToolPool(List<ToolData> tools, OperationType operationType, int toolsQuantity)
+        private ToolData[] GenerateToolPool(List<ToolData> tools, OperationType operationType, int rightToolsQuantity)
         {
-            List<ToolData> rightTools = tools.Where(x => x.GetOperationType == operationType).ToList();
-            List<ToolData> wrongTools = SortToolsPool(tools.Except(rightTools).ToList(), toolsQuantity - rightTools.Count);
+            int totalToolsQuantity = rightToolsQuantity * m_maxToolModifier;
+
+            List<ToolData> operationMatchingTools = tools
+            .Where(tool => tool.OperationsTypes.Any(operation => operation == operationType))
+            .ToList();
+            List<ToolData> rightTools = SortToolsPool(operationMatchingTools, rightToolsQuantity);
+
+            List<ToolData> wrongTools = SortToolsPool(tools.Except(operationMatchingTools).ToList(), totalToolsQuantity);
+
             List<ToolData> finalToolPool = rightTools.Concat(wrongTools).ToList();
 
             return RandomizeToolsPosition(finalToolPool);
@@ -118,5 +129,7 @@ namespace PointnClick
                 controller.Move();
             }
         }
+
+        private void ClearInstance(Scene current) => Instance = null;
     }
 }

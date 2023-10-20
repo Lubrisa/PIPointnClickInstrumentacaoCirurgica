@@ -18,11 +18,11 @@ namespace PointnClick
     [CreateAssetMenu(fileName = "ToolName", menuName = "Data/ToolData")]
     public class ToolData : ScriptableObject
     {
-        [SerializeField] private OperationType m_operationType;
+        [SerializeField] private OperationType[] m_operationsTypes;
 
         [SerializeField] private Sprite m_toolSprite;
 
-        public OperationType GetOperationType { get { return m_operationType; } }
+        public OperationType[] OperationsTypes { get { return m_operationsTypes; } }
         public Sprite ToolSprite { get { return m_toolSprite; } }
     }
 }

@@ -35,7 +35,11 @@ namespace PointnClick
         {
             m_maxToolCapacity = rightToolsQuantity;
             m_operationType = operationType;
+
+            SceneManager.sceneUnloaded += ClearInstance;
         }
+
+        private void Start() => m_onToolListUpdate.Raise(ToolsLeftText());
 
         public Vector2 GenerateCoordinates(Vector2 startPosition, Vector2 deltas, int rowsQuantity, int index)
         {
@@ -81,12 +85,14 @@ namespace PointnClick
         public void CheckAnswer()
         {
             bool answerIsRight = true;
-            foreach (var item in m_toolsList)
-                if (item.OperationType != m_operationType)
+            foreach (var tool in m_toolsList)
+            {
+                if (!tool.CheckOperationMatch(m_operationType))
                 {
                     answerIsRight = false;
                     break;
                 }
+            }
 
             if (answerIsRight)
                 SceneManager.LoadScene(5); //m_onRightAnswer.Raise();
@@ -102,9 +108,12 @@ namespace PointnClick
                 }
             }
 
+            m_onToolListUpdate.Raise(ToolsLeftText());
             m_onBoxChange.Raise(false);
         }
 
         private string ToolsLeftText() => $"{m_maxToolCapacity}/{m_toolsList.Count}";
+
+        private void ClearInstance(Scene current) => Instance = null;
     }
 }

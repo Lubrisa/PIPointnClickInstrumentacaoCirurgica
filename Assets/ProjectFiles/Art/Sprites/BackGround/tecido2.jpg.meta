@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tecido2_0: 7759739676517791049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -40,12 +40,11 @@ namespace PointnClick
         {
             int totalToolsQuantity = rightToolsQuantity * m_maxToolModifier;
 
-            List<ToolData> operationMatchingTools = tools
-            .Where(tool => tool.OperationsTypes.Any(operation => operation == operationType))
+            List<ToolData> rightTools = tools
+            .Where(tool => tool.OperationsData.Any(operation =>
+            operation.OperationType == operationType && operation.OperationsDifficulties.Contains(rightToolsQuantity)))
             .ToList();
-            List<ToolData> rightTools = SortToolsPool(operationMatchingTools, rightToolsQuantity);
-
-            List<ToolData> wrongTools = SortToolsPool(tools.Except(operationMatchingTools).ToList(), totalToolsQuantity);
+            List<ToolData> wrongTools = SortToolsPool(tools.Except(rightTools).ToList(), totalToolsQuantity - rightToolsQuantity);
 
             List<ToolData> finalToolPool = rightTools.Concat(wrongTools).ToList();
 

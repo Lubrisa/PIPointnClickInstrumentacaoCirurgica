@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
   m_Name: OperationTypeB
   m_EditorClassIdentifier: 
-  m_operationsTypes: 01000000
-  m_toolSprite: {fileID: 0}
+  <ToolName>k__BackingField: 
+  <OperationsData>k__BackingField:
+  - <OperationType>k__BackingField: 1
+    <OperationsDifficulties>k__BackingField: 010000000200000003000000
+  <ToolSprite>k__BackingField: {fileID: 0}

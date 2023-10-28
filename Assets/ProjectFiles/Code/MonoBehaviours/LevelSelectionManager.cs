@@ -12,16 +12,21 @@ namespace PointnClick
         [SerializeField] private IntGameEvent m_onDifficultySet;
         [SerializeField] private BoolGameEvent m_onStartButtonActivation;
 
+        private int[] m_rightToolQuantities;
+
         private void Start() => m_animator = GetComponent<Animator>();
 
         public void ReturnToMainMenu() => SceneManager.LoadScene(0);
 
-        public void SetOperationType(ToolData data) => m_onOperationTypeSet.Raise(data);
-
-
-        public void SetDifficulty(int toolsQuantity)
+        public void SetOperationType(ToolData data)
         {
-            m_onDifficultySet.Raise(toolsQuantity);
+            m_onOperationTypeSet.Raise(data);
+            m_rightToolQuantities = data.OperationsData[0].OperationsDifficulties;
+        }
+
+        public void SetDifficulty(int difficulty)
+        {
+            m_onDifficultySet.Raise(m_rightToolQuantities[difficulty]);
             m_onStartButtonActivation.Raise(true);
         }
 

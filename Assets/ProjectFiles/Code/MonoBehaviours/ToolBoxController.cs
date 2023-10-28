@@ -87,7 +87,7 @@ namespace PointnClick
             bool answerIsRight = true;
             foreach (var tool in m_toolsList)
             {
-                if (!tool.CheckOperationMatch(m_operationType))
+                if (!tool.CheckOperationMatch(m_operationType, m_maxToolCapacity))
                 {
                     answerIsRight = false;
                     break;

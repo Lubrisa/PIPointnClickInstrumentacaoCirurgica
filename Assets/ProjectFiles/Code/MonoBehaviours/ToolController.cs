@@ -6,7 +6,7 @@ namespace PointnClick
 {
     public class ToolController : MonoBehaviour, IDraggable
     {
-        private OperationType[] m_operationsTypes;
+        private OperationData[] m_operationsData;
         private Vector2 m_currentPosition;
 
         public void Initialize(ToolData toolData, Vector2 initialPosition)
@@ -15,7 +15,7 @@ namespace PointnClick
             transform.position = initialPosition;
 
             m_currentPosition = initialPosition;
-            m_operationsTypes = toolData.OperationsTypes;
+            m_operationsData = toolData.OperationsData;
             spriteRenderer.sprite = toolData.ToolSprite;
         }
 
@@ -69,7 +69,9 @@ namespace PointnClick
 
         public void Move() => StartCoroutine(MoveTowards());
 
-        public bool CheckOperationMatch(OperationType operationToCompare) =>
-            m_operationsTypes.All(operation => operation == operationToCompare);
+        public bool CheckOperationMatch(OperationType operationToCompare, int difficultyToCompare) =>
+            m_operationsData.Any(operation =>
+            operation.OperationType == operationToCompare
+            && operation.OperationsDifficulties.Contains(difficultyToCompare));
     }
 }

@@ -7,22 +7,26 @@ namespace PointnClick
     /// </summary>
     public enum OperationType
     {
-        A,
-        B,
-        C,
-        D,
-        E,
-        F
+        Geral,
+        Obstetricia,
+        Otorrinolaringologia,
+        Plastica,
+        Toracica,
+        Urologia
     };
 
     [CreateAssetMenu(fileName = "ToolName", menuName = "Data/ToolData")]
     public class ToolData : ScriptableObject
     {
-        [SerializeField] private OperationType[] m_operationsTypes;
+        [field: SerializeField] public string ToolName { get; private set; }
+        [field: SerializeField] public OperationData[] OperationsData { get; private set; }
+        [field: SerializeField] public Sprite ToolSprite { get; private set; }
+    }
 
-        [SerializeField] private Sprite m_toolSprite;
-
-        public OperationType[] OperationsTypes { get { return m_operationsTypes; } }
-        public Sprite ToolSprite { get { return m_toolSprite; } }
+    [System.Serializable]
+    public class OperationData
+    {
+        [field: SerializeField] public OperationType OperationType { get; private set; }
+        [field: SerializeField] public int[] OperationsDifficulties { get; private set; }
     }
 }

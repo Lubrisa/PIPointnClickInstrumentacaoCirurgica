@@ -56,9 +56,12 @@ namespace PointnClick
         {
             if (m_toolsList.Contains(tool) || m_toolsList.Count == m_maxToolCapacity) return;
 
+            tool.transform.parent = transform;
             m_toolsList.Add(tool);
             ToolInstantiator.Instance.RemoveTool(tool);
-            tool.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
+            Vector2 position2D = new Vector2(transform.position.x, transform.position.y);
+            tool.SetNewPosition(
+                GenerateCoordinates(position2D + m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
 
             m_onBoxChange.Raise(m_toolsList.Count == m_maxToolCapacity);
             m_onToolListUpdate.Raise(ToolsLeftText());
@@ -71,12 +74,7 @@ namespace PointnClick
             m_toolsList.Remove(tool);
             ToolInstantiator.Instance.AddTool(tool);
 
-            for (int i = 0; i < m_toolsList.Count; i++)
-            {
-                ToolController controller = m_toolsList[i];
-                controller.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, i));
-                controller.Move();
-            }
+            ResetToolsPosition();
 
             m_onBoxChange.Raise(false);
             m_onToolListUpdate.Raise(ToolsLeftText());
@@ -113,6 +111,18 @@ namespace PointnClick
         }
 
         private string ToolsLeftText() => $"{m_toolsList.Count}/{m_maxToolCapacity}";
+
+        public void ResetToolsPosition()
+        {
+            for (int i = 0; i < m_toolsList.Count; i++)
+            {
+                ToolController controller = m_toolsList[i];
+                Vector2 position2D = new Vector2(transform.position.x, transform.position.y);
+                controller.SetNewPosition(
+                    GenerateCoordinates(position2D + m_startPosition, m_deltas, m_rowsQuantity, i));
+                controller.Move();
+            }
+        }
 
         private void ClearInstance(Scene current) => Instance = null;
     }

@@ -11,7 +11,7 @@ namespace PointnClick
     {
         public static ToolInstantiator Instance;
 
-        [SerializeField] private List<ToolController> m_toolsList = new();
+        private List<ToolController> m_toolsList = new();
         [SerializeField] private int m_maxToolModifier;
 
         [SerializeField] private Vector2 m_startPosition;
@@ -45,7 +45,6 @@ namespace PointnClick
             operation.OperationType == operationType && operation.OperationsDifficulties.Contains(rightToolsQuantity)))
             .ToList();
             List<ToolData> wrongTools = SortToolsPool(tools.Except(rightTools).ToList(), totalToolsQuantity - rightToolsQuantity);
-
             List<ToolData> finalToolPool = rightTools.Concat(wrongTools).ToList();
 
             return RandomizeToolsPosition(finalToolPool);
@@ -91,7 +90,7 @@ namespace PointnClick
         {
             for (int i = 0; i < positionList.Length; i++)
             {
-                ToolController tool = Instantiate(m_toolPrefab);
+                ToolController tool = Instantiate(m_toolPrefab, transform);
                 m_toolsList.Add(tool);
                 tool.Initialize(positionList[i], GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, i));
             }
@@ -112,8 +111,11 @@ namespace PointnClick
         {
             if (m_toolsList.Contains(tool)) return;
 
+            tool.transform.parent = transform;
             m_toolsList.Add(tool);
-            tool.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
+            Vector2 position2D = new Vector2(transform.position.x, transform.position.y);
+            tool.SetNewPosition(
+                GenerateCoordinates(position2D + m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
         }
 
         public void RemoveTool(ToolController tool)
@@ -121,10 +123,17 @@ namespace PointnClick
             if (!m_toolsList.Contains(tool)) return;
 
             m_toolsList.Remove(tool);
+            ResetToolsPosition();
+        }
+
+        public void ResetToolsPosition()
+        {
             for (int i = 0; i < m_toolsList.Count; i++)
             {
                 ToolController controller = m_toolsList[i];
-                controller.SetNewPosition(GenerateCoordinates(m_startPosition, m_deltas, m_rowsQuantity, i));
+                Vector2 position2D = new Vector2(transform.position.x, transform.position.y);
+                controller.SetNewPosition(
+                    GenerateCoordinates(position2D + m_startPosition, m_deltas, m_rowsQuantity, i));
                 controller.Move();
             }
         }

@@ -11,5 +11,7 @@ namespace PointnClick
         public void RemoveTool(ToolController tool);
 
         public Vector2 GenerateCoordinates(Vector2 startPosition, Vector2 deltas, int rowsQuantity, int index);
+
+        public void ResetToolsPosition();
     }
 }

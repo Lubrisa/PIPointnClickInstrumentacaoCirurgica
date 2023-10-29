@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Linq;
 using UnityEngine;
+using ScriptableObjectArchitecture;
 
 namespace PointnClick
 {
@@ -39,7 +40,7 @@ namespace PointnClick
             transform.position = newPosition;
         }
 
-        private void OnMouseUp() => Move();
+        private void OnMouseUp() => Move(); 
 
         private Vector2 GetWorldMousePosition(Vector3 virtualMousePosition)
         {

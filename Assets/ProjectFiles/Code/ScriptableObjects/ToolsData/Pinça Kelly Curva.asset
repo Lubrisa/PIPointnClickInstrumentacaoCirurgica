@@ -22,4 +22,4 @@ MonoBehaviour:
     <OperationsDifficulties>k__BackingField: 0000000000000000
   - <OperationType>k__BackingField: 2
     <OperationsDifficulties>k__BackingField: 000000000000000000000000
-  <ToolSprite>k__BackingField: {fileID: 0}
+  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}

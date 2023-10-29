@@ -52,6 +52,22 @@ namespace PointnClick
             return new Vector2(xPosition, yPosition);
         }
 
+        public void OnTriggerEnter2D(Collider2D other)
+        {
+            ToolController controller;
+
+            if (other.TryGetComponent<ToolController>(out controller))
+                AddTool(controller);
+        }
+
+        public void OnTriggerExit2D(Collider2D other)
+        {
+            ToolController controller;
+
+            if (other.TryGetComponent<ToolController>(out controller))
+                RemoveTool(controller);
+        }
+
         public void AddTool(ToolController tool)
         {
             if (m_toolsList.Contains(tool) || m_toolsList.Count == m_maxToolCapacity) return;
@@ -65,6 +81,8 @@ namespace PointnClick
 
             m_onBoxChange.Raise(m_toolsList.Count == m_maxToolCapacity);
             m_onToolListUpdate.Raise(ToolsLeftText());
+
+            
         }
 
         public void RemoveTool(ToolController tool)

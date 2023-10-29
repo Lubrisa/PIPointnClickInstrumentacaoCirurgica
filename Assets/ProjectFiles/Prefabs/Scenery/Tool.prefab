@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5438964351402121980}
   - component: {fileID: 6860397671232665803}
   - component: {fileID: -3112216645943928056}
-  m_Layer: 0
-  m_Name: Square
+  m_Layer: 3
+  m_Name: Tool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ccc0708fd560f47b7006c3cda0ed5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_onToolDragged: {fileID: 11400000, guid: 871c07ae8bffe2d49acf8a6b5b8296b9, type: 2}
+  m_tooltipPrefab: {fileID: 6341813626979184145, guid: 527760139b02c6b439c0c780db2bc55f, type: 3}
+  m_onReturn: {fileID: 11400000, guid: 871c07ae8bffe2d49acf8a6b5b8296b9, type: 2}
 --- !u!61 &6860397671232665803
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -171,5 +172,5 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0

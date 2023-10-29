@@ -7,14 +7,22 @@ namespace PointnClick
 {
     public class ToolController : MonoBehaviour, IDraggable
     {
+        private string m_toolName;
         private OperationData[] m_operationsData;
         private Vector2 m_currentPosition;
+
+        [SerializeField] private ToolnameTooltip m_tooltipPrefab;
+        private ToolnameTooltip m_tooltipInstance;
+        private bool m_dragging;
+
+        [SerializeField] private BoolGameEvent m_onReturn;
 
         public void Initialize(ToolData toolData, Vector2 initialPosition)
         {
             SpriteRenderer spriteRenderer = transform.GetComponent<SpriteRenderer>();
             transform.position = initialPosition;
 
+            m_toolName = toolData.ToolName;
             m_currentPosition = initialPosition;
             m_operationsData = toolData.OperationsData;
             spriteRenderer.sprite = toolData.ToolSprite;
@@ -22,16 +30,27 @@ namespace PointnClick
 
         public IEnumerator MoveTowards()
         {
-            float movementTime = 2f;
-            float currentMovementTime = 0f;
-
-            while (Vector2.Distance(transform.position, m_currentPosition) > 0.1f)
+            if (!m_dragging)
             {
-                currentMovementTime += Time.deltaTime;
-                transform.position = Vector2.Lerp(transform.position, m_currentPosition, currentMovementTime / movementTime);
-                yield return new WaitForEndOfFrame();
+                m_onReturn.Raise(false);
+
+                float movementTime = 2f;
+                float currentMovementTime = 0f;
+
+                while (Vector2.Distance(transform.position, m_currentPosition) > 0.1f)
+                {
+                    currentMovementTime += Time.deltaTime;
+                    transform.position = Vector2.Lerp(transform.position, m_currentPosition, currentMovementTime / movementTime);
+                    yield return new WaitForEndOfFrame();
+                }
+
+                m_onReturn.Raise(true);
             }
         }
+
+        public void Move() => StartCoroutine(MoveTowards());
+
+        private void OnMouseDown() => m_dragging = true;
 
         public void OnMouseDrag()
         {
@@ -40,7 +59,13 @@ namespace PointnClick
             transform.position = newPosition;
         }
 
-        private void OnMouseUp() => Move(); 
+        private void OnMouseUp()
+        {
+            m_dragging = false;
+            DestroyTooltip();
+
+            Move(); 
+        }
 
         private Vector2 GetWorldMousePosition(Vector3 virtualMousePosition)
         {
@@ -49,30 +74,32 @@ namespace PointnClick
             return new Vector2(worldMousePosition.x, worldMousePosition.y);
         }
 
-        public void OnTriggerEnter2D(Collider2D other)
-        {
-            ToolBoxController controller;
-
-            if (other.transform.TryGetComponent<ToolBoxController>(out controller))
-                controller.AddTool(this);
-
-        }
-
-        public void OnTriggerExit2D(Collider2D other)
-        {
-            ToolBoxController controller;
-
-            if (other.TryGetComponent<ToolBoxController>(out controller))
-                controller.RemoveTool(this);
-        }
-
         public void SetNewPosition(Vector2 newPosition) => m_currentPosition = newPosition;
-
-        public void Move() => StartCoroutine(MoveTowards());
-
+        
         public bool CheckOperationMatch(OperationType operationToCompare, int difficultyToCompare) =>
             m_operationsData.Any(operation =>
             operation.OperationType == operationToCompare
             && operation.OperationsDifficulties.Contains(difficultyToCompare));
+
+        private void OnMouseEnter()
+        {
+            if (m_dragging) return;
+
+            m_tooltipInstance = Instantiate(m_tooltipPrefab);
+            m_tooltipInstance.Initialize(m_toolName);
+        } 
+
+        private void OnMouseExit()
+        {
+            if (!m_dragging) DestroyTooltip();
+        } 
+
+        private void DestroyTooltip()
+        {
+            if (m_tooltipInstance is null) return;
+            
+            Destroy(m_tooltipInstance.gameObject);
+            m_tooltipInstance = null;
+        }
     }
 }

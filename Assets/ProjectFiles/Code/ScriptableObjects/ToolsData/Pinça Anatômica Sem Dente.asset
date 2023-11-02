@@ -10,14 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
-  m_Name: "Pin\xE7a Anat\xF4mica Sem Dente"
+  m_Name: "Pin\xE7a Anat\xF4mica sem Dente"
   m_EditorClassIdentifier: 
-  <ToolName>k__BackingField: "Pin\xE7a Anat\xF4mica Sem Dente"
-  <OperationsData>k__BackingField:
-  - <OperationType>k__BackingField: 1
-    <OperationsDifficulties>k__BackingField: 0000000000000000
-  - <OperationType>k__BackingField: 0
-    <OperationsDifficulties>k__BackingField: 010000000100000001000000
-  - <OperationType>k__BackingField: 4
-    <OperationsDifficulties>k__BackingField: 000000000000000000000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <ToolName>k__BackingField: "Pin\xE7a Anat\xF4mica sem Dente"
+  <Operations>k__BackingField: 03000000
+  <ToolSprite>k__BackingField: {fileID: 414079685835196433, guid: bd1328c2b731ddb4f9b1af17160400d0, type: 3}

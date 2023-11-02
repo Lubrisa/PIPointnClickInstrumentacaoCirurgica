@@ -13,17 +13,5 @@ MonoBehaviour:
   m_Name: "Pin\xE7a Allis"
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: "Pin\xE7a Allis"
-  <OperationsData>k__BackingField:
-  - <OperationType>k__BackingField: 3
-    <OperationsDifficulties>k__BackingField: 00000000
-  - <OperationType>k__BackingField: 1
-    <OperationsDifficulties>k__BackingField: 0000000000000000
-  - <OperationType>k__BackingField: 0
-    <OperationsDifficulties>k__BackingField: 010000000100000001000000
-  - <OperationType>k__BackingField: 4
-    <OperationsDifficulties>k__BackingField: 0000000000000000
-  - <OperationType>k__BackingField: 5
-    <OperationsDifficulties>k__BackingField: 00000000
-  - <OperationType>k__BackingField: 2
-    <OperationsDifficulties>k__BackingField: 00000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <Operations>k__BackingField: 01000000
+  <ToolSprite>k__BackingField: {fileID: -5310675363572711481, guid: e41988d86ad7f894b9e4926544a68d4b, type: 3}

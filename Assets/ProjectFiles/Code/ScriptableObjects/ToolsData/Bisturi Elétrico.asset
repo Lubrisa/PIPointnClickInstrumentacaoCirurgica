@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
+  m_Name: "Bisturi El\xE9trico"
+  m_EditorClassIdentifier: 
+  <ToolName>k__BackingField: "Bisturi El\xE9trico"
+  <Operations>k__BackingField: 00000000
+  <ToolSprite>k__BackingField: {fileID: -2374470778382359795, guid: df5cf7bee16f03b4bbf5e297f38a2256, type: 3}

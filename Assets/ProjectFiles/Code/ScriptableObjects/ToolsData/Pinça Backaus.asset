@@ -13,15 +13,5 @@ MonoBehaviour:
   m_Name: "Pin\xE7a Backaus"
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: "Pin\xE7a Backaus"
-  <OperationsData>k__BackingField:
-  - <OperationType>k__BackingField: 1
-    <OperationsDifficulties>k__BackingField: 0000000000000000
-  - <OperationType>k__BackingField: 0
-    <OperationsDifficulties>k__BackingField: 010000000100000001000000
-  - <OperationType>k__BackingField: 4
-    <OperationsDifficulties>k__BackingField: 00000000
-  - <OperationType>k__BackingField: 4
-    <OperationsDifficulties>k__BackingField: 0000000000000000
-  - <OperationType>k__BackingField: 2
-    <OperationsDifficulties>k__BackingField: 000000000000000000000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <Operations>k__BackingField: 01000000
+  <ToolSprite>k__BackingField: {fileID: -844377321706189496, guid: 4542ea2b02cfa344e8c30cefb0d61b4c, type: 3}

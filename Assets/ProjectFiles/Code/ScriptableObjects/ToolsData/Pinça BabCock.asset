@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: "Pin\xE7a BabCock"
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: "Pin\xE7a BabCock"
-  <OperationsData>k__BackingField:
-  - <OperationType>k__BackingField: 1
-    <OperationsDifficulties>k__BackingField: 00000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <Operations>k__BackingField: 02000000
+  <ToolSprite>k__BackingField: {fileID: -46050104307920446, guid: 094f116be9d0690479aec49120ee6b02, type: 3}

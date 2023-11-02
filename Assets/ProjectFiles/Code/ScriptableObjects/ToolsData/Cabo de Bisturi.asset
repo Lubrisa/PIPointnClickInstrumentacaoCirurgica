@@ -13,17 +13,5 @@ MonoBehaviour:
   m_Name: Cabo de Bisturi
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: Cabo de Bisturi
-  <OperationsData>k__BackingField:
-  - <OperationType>k__BackingField: 3
-    <OperationsDifficulties>k__BackingField: 020000000100000001000000
-  - <OperationType>k__BackingField: 1
-    <OperationsDifficulties>k__BackingField: 0100000002000000
-  - <OperationType>k__BackingField: 0
-    <OperationsDifficulties>k__BackingField: 010000000100000001000000
-  - <OperationType>k__BackingField: 4
-    <OperationsDifficulties>k__BackingField: 0200000002000000
-  - <OperationType>k__BackingField: 5
-    <OperationsDifficulties>k__BackingField: 0200000002000000
-  - <OperationType>k__BackingField: 2
-    <OperationsDifficulties>k__BackingField: 020000000200000002000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <Operations>k__BackingField: 00000000
+  <ToolSprite>k__BackingField: {fileID: 4062263359850106809, guid: 7a58fcf254e982f4bbc99b16e8795826, type: 3}

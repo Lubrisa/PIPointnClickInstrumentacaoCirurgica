@@ -9,10 +9,7 @@ public class GameOptionsInstaller : MonoInstaller
 
     public override void InstallBindings()
     {
-        GameData gameOptions = GameOptionsHolder.Instance.GetData();
-
         Container.Bind<List<ToolData>>().FromInstance(m_toolsData).AsSingle();
-        Container.Bind<OperationType>().FromInstance(gameOptions.Operation).AsSingle();
-        Container.Bind<int>().FromInstance(gameOptions.ToolsQuantity).AsSingle();
+        Container.Bind<OperationType>().FromInstance(GameOptionsHolder.Instance.OperationType).AsSingle();
     }
 }

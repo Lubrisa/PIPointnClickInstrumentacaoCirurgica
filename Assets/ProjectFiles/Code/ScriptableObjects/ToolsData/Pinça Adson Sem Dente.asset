@@ -10,14 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
-  m_Name: "Pin\xE7a Adson Sem Dente"
+  m_Name: "Pin\xE7a Adson sem Dente"
   m_EditorClassIdentifier: 
-  <ToolName>k__BackingField: "Pin\xE7a Adson Sem Dente"
-  <OperationsData>k__BackingField:
-  - <OperationType>k__BackingField: 3
-    <OperationsDifficulties>k__BackingField: 0200000002000000
-  - <OperationType>k__BackingField: 5
-    <OperationsDifficulties>k__BackingField: 0200000002000000
-  - <OperationType>k__BackingField: 2
-    <OperationsDifficulties>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <ToolName>k__BackingField: "Pin\xE7a Adson sem Dente"
+  <Operations>k__BackingField: 03000000
+  <ToolSprite>k__BackingField: {fileID: -59744008610396459, guid: b5bdaa9a32f7db64f87a460b95bc1027, type: 3}

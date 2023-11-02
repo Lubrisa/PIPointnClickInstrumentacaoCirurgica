@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using log4net.Util;
 using ModestTree;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -27,25 +28,31 @@ namespace PointnClick
         }
 
         [Inject]
-        private void Initialize(List<ToolData> toolsData, OperationType operationType, int rightToolsQuantity)
+        private void Initialize(List<ToolData> toolsData, OperationType operationType)
         {
-            ToolData[] toolPool = GenerateToolPool(toolsData, operationType, rightToolsQuantity);
+            ToolData[] toolPool = GenerateToolPool(toolsData, operationType);
 
             InstantiateTools(toolPool);
 
             SceneManager.sceneUnloaded += ClearInstance;
         }
 
-        private ToolData[] GenerateToolPool(List<ToolData> tools, OperationType operationType, int rightToolsQuantity)
+        private ToolData[] GenerateToolPool(List<ToolData> tools, OperationType operationType)
         {
-            int totalToolsQuantity = rightToolsQuantity * m_maxToolModifier;
-
             List<ToolData> rightTools = tools
-            .Where(tool => tool.OperationsData.Any(operation =>
-            operation.OperationType == operationType && operation.OperationsDifficulties.Contains(rightToolsQuantity)))
-            .ToList();
-            List<ToolData> wrongTools = SortToolsPool(tools.Except(rightTools).ToList(), totalToolsQuantity - rightToolsQuantity);
-            List<ToolData> finalToolPool = rightTools.Concat(wrongTools).ToList();
+            .Where(tool => tool.Operations.Any(type => type == operationType)).ToList();
+            List<ToolData> wrongTools = tools.Except(rightTools).ToList();
+
+            // Getting the higher number multiple of ten above the total tools quantity. 
+            int totalToolsQuantity = ((rightTools.Count * m_maxToolModifier / 10) + 1) * 10;
+            // Checking if the total quantity is higher than the wrong tools pool size and avoiding that.
+            int correctedToolsQuantity =
+                totalToolsQuantity - rightTools.Count <= wrongTools.Count ?
+                totalToolsQuantity : wrongTools.Count;
+
+            List<ToolData> sortedWrongTools = SortToolsPool(wrongTools, totalToolsQuantity - rightTools.Count);
+
+            List<ToolData> finalToolPool = rightTools.Concat(sortedWrongTools).ToList();
 
             return RandomizeToolsPosition(finalToolPool);
         }
@@ -57,7 +64,7 @@ namespace PointnClick
 
             for (int i = 0; i < quantity; i++)
             {
-                int index = new System.Random().Next(0, toolsPool.Count);
+                int index = new System.Random().Next(itemPool.Count);
                 finalPool.Add(toolsPool[index]);
                 toolsPool.Remove(toolsPool[index]);
             }
@@ -69,16 +76,15 @@ namespace PointnClick
         {
             ToolData[] finalPool = new ToolData[toolPool.Count];
 
-            for (int i = 0; i < toolPool.Count; i++)
+            for (int i = 0; i < finalPool.Length; i++)
             {
                 // Getting the data to be inserted.
                 ToolData tool = toolPool[i];
                 // Setting the position to be inserted.
                 int position;
                 do
-                    position = new System.Random().Next(0, toolPool.Count);
+                    position = new System.Random().Next(0, finalPool.Length);
                 while (finalPool[position] is not null);
-
                 // Setting the data in the position.
                 finalPool[position] = tool;
             }
@@ -113,6 +119,7 @@ namespace PointnClick
 
             tool.transform.parent = transform;
             m_toolsList.Add(tool);
+
             Vector2 position2D = new Vector2(transform.position.x, transform.position.y);
             tool.SetNewPosition(
                 GenerateCoordinates(position2D + m_startPosition, m_deltas, m_rowsQuantity, m_toolsList.Count - 1));
@@ -131,9 +138,11 @@ namespace PointnClick
             for (int i = 0; i < m_toolsList.Count; i++)
             {
                 ToolController controller = m_toolsList[i];
+
                 Vector2 position2D = new Vector2(transform.position.x, transform.position.y);
                 controller.SetNewPosition(
                     GenerateCoordinates(position2D + m_startPosition, m_deltas, m_rowsQuantity, i));
+
                 controller.Move();
             }
         }

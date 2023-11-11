@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Kelly Reta_0": 9185018967301898346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

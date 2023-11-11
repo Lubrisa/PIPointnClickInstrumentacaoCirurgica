@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Moynihan_0": 8651777970716066745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

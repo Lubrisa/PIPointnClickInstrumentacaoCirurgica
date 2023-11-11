@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f52d460af38439c4cb6231282b074897, type: 3}
-  m_Name: Faca Fiborma
+  m_Name: Saca Fibroma
   m_EditorClassIdentifier: 
-  <ToolName>k__BackingField: Faca Fiborma
+  <ToolName>k__BackingField: Saca Fibroma
   <Operations>k__BackingField: 02000000
   <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}

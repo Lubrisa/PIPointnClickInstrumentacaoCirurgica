@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a de Rochester Pean Reta_0": 5538078569193527154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Allis_0": -5310675363572711481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

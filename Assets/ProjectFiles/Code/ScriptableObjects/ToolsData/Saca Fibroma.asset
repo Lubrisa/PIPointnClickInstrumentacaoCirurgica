@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: Saca Fibroma
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: 1404028623067837608, guid: 07f5da5b7ed8e8247810fc5703493a77, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: cab14a44269120844946b334fa74b3ef, type: 3}

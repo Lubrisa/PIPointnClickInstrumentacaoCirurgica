@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: Sapata de Reverdin
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: -8763952120310882545, guid: 7923a7b8322a54d4093b99cd00a582f4, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: e5b8379aabf194840b26a7f4559011c3, type: 3}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: Afastador Doyen
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: 323624436129705170, guid: 5d85405e91dc2a542a6eecdd743fa5fb, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: 170b8e88ba7317f42bcd471a498c5424, type: 3}

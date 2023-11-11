@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: Afastador Farabeuf
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: 7142319075860585803, guid: 881eb683db578ab4c809f1798931defd, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: a3d790aebbebe9c4eaa389e35b824fc6, type: 3}

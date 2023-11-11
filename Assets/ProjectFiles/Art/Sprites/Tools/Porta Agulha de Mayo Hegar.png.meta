@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 49825b2823589454394732b519727012
+guid: 37340e3bc0eec004288d38ded48fea6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8651777970716066745
-    second: "Pin\xE7a Moynihan_0"
+      213: 5743308974191364318
+    second: Porta Agulha de Mayo Hegar_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -146,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pin\xE7a Moynihan_0"
+      name: Porta Agulha de Mayo Hegar_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 13
-        width: 130
-        height: 132
+        x: 9
+        y: 9
+        width: 151
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b3c41ca93a411870800000000000000
-      internalID: 8651777970716066745
+      spriteID: ed84df9251554bf40800000000000000
+      internalID: 5743308974191364318
       vertices: []
       indices: 
       edges: []

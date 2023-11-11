@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 49825b2823589454394732b519727012
+guid: 7fc6a14518c086747bf650b49f2ede81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8651777970716066745
-    second: "Pin\xE7a Moynihan_0"
+      213: -5310675363572711481
+    second: "Pin\xE7a Allis_0"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -146,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pin\xE7a Moynihan_0"
+      name: "Pin\xE7a Allis_0"
       rect:
         serializedVersion: 2
-        x: 17
-        y: 13
-        width: 130
-        height: 132
+        x: 19
+        y: 29
+        width: 179
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b3c41ca93a411870800000000000000
-      internalID: 8651777970716066745
+      spriteID: 7cf74dcd4e0bc46b0800000000000000
+      internalID: -5310675363572711481
       vertices: []
       indices: 
       edges: []

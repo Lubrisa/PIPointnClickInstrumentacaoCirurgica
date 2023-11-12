@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Doyen Intestinal_0": 8536500510527612556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

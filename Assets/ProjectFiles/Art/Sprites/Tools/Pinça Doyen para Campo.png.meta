@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Doyen para Campo_0": 1229649388519693790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

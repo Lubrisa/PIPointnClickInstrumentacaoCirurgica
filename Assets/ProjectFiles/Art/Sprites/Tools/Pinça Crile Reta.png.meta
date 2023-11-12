@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Crile Reta_0": 5986856869218059059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

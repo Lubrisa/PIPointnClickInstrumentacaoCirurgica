@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: Afastador Finochietto
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: -5112822362428802668, guid: d4b289c2b55bb9b40bee90aca805185b, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: 02ae634f3559b4f469ffaa4d350e10aa, type: 3}

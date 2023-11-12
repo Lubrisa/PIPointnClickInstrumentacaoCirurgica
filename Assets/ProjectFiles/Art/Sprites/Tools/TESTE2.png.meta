@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f4eba0327891b8c41a25b0bf17a050ce
+guid: 73bc4249a551c0c418130ba7cde8274f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6542041375917998257
-    second: "Pin\xE7a Bruenings_0"
+      213: 3932300637961955510
+    second: TESTE2_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,18 +119,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -146,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pin\xE7a Bruenings_0"
+      name: TESTE2_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 13
-        width: 143
-        height: 170
+        x: 36
+        y: 0
+        width: 130
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4fff72a7000635a0800000000000000
-      internalID: -6542041375917998257
+      spriteID: 6b8a3c39896529630800000000000000
+      internalID: 3932300637961955510
       vertices: []
       indices: 
       edges: []
@@ -176,8 +164,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Pin\xE7a Bruenings_0": -6542041375917998257
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

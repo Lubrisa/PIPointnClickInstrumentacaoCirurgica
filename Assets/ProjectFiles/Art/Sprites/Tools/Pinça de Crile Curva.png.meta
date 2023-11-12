@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a de Crile Curva_0": 685212957462766711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

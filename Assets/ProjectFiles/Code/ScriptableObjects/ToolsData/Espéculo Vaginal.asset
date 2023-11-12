@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: "Esp\xE9culo Vaginal"
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: -1055645396292964223, guid: c13e5ebc6274abe46b816498c8bfdca0, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: 47ac3b841b51ed049972796e29fe996f, type: 3}

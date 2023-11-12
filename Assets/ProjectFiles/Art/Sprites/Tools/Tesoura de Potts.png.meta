@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tesoura de Potts_0: 7874017225434635136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

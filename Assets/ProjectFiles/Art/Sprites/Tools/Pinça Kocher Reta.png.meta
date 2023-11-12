@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Kocher Reta_0": 6307737054758822842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

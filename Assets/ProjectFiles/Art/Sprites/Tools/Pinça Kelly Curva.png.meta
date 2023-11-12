@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Kelly Curva_0": -3783437528028316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

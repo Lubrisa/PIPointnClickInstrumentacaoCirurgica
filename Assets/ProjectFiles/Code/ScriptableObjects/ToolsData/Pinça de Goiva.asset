@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: "Pin\xE7a de Goiva"
   <Operations>k__BackingField: 02000000
-  <ToolSprite>k__BackingField: {fileID: -8777337059631097503, guid: 9dd87da96f1c98d4292c871357226284, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 21300000, guid: 232ca9f1cde43264fa7c98838bcf4adb, type: 3}

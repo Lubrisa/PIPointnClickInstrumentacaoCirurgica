@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Anatomica com Dente_0": -7270329014848645075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

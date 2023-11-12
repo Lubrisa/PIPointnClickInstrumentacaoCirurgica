@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Adson com Dente_0": 3073799315539328472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

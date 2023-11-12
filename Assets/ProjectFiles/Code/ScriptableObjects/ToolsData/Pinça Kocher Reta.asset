@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ToolName>k__BackingField: "Pin\xE7a Kocher Reta"
   <Operations>k__BackingField: 01000000
-  <ToolSprite>k__BackingField: {fileID: 6307737054758822842, guid: 220137fab5f54d74d9db815634787156, type: 3}
+  <ToolSprite>k__BackingField: {fileID: 6307737054758822842, guid: c2abe76eb3d069b46ab0e9510b378d14, type: 3}

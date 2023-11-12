@@ -200,7 +200,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Mixter_0": 8500926479520658597
+      "Pin\xE7a Mixter_1": 6344066977426581536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

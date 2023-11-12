@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tesoura de Metzembaum Curva_0: 1017577225723408215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

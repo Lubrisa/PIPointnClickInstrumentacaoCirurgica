@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Kelly Curva_0"
       rect:
         serializedVersion: 2
-        x: 9
-        y: 36
-        width: 151
-        height: 86
+        x: 11
+        y: 44
+        width: 187
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -149,10 +149,10 @@ TextureImporter:
       name: Tesoura de Potts_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 8
-        width: 144
-        height: 143
+        x: 11
+        y: 10
+        width: 178
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

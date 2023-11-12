@@ -149,10 +149,10 @@ TextureImporter:
       name: Tesoura de Metzembaum Curva_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 19
-        width: 141
-        height: 103
+        x: 11
+        y: 23
+        width: 174
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

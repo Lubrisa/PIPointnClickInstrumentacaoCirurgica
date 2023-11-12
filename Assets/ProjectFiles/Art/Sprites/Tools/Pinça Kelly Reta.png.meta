@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Kelly Reta_0"
       rect:
         serializedVersion: 2
-        x: 14
-        y: 32
-        width: 136
-        height: 82
+        x: 17
+        y: 39
+        width: 168
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

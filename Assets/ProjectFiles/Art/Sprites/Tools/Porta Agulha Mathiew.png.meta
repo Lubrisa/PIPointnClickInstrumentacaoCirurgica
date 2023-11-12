@@ -149,10 +149,10 @@ TextureImporter:
       name: Porta Agulha Mathiew_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 17
-        width: 154
-        height: 148
+        x: 12
+        y: 19
+        width: 172
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

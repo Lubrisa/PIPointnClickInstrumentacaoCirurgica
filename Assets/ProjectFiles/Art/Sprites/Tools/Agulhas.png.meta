@@ -128,7 +128,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -140,7 +140,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -158,10 +158,10 @@ TextureImporter:
       name: Agulhas_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 84
-        width: 121
-        height: 40
+        x: 34
+        y: 93
+        width: 135
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: Agulhas_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 73
-        width: 110
-        height: 36
+        x: 41
+        y: 81
+        width: 122
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Agulhas_2
       rect:
         serializedVersion: 2
-        x: 45
-        y: 63
-        width: 92
-        height: 30
+        x: 50
+        y: 70
+        width: 102
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Agulhas_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 56
-        width: 60
-        height: 23
+        x: 70
+        y: 62
+        width: 67
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,11 +248,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Agulhas_0: 5171776706224177900
-      Agulhas_1: -7524399255395569776
-      Agulhas_2: 1747647340867448805
-      Agulhas_3: 9199517358274301515
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

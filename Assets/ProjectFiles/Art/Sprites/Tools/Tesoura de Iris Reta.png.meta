@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c2a695829029d0a4983d87eb3acf0eb1
+guid: e74c723382507cd49918405c596e2770
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5293736113140306287
-    second: Tesoura de Iris Reta 1_0
+      213: 7267217198547424819
+    second: Tesoura de Iris Reta_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -146,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tesoura de Iris Reta 1_0
+      name: Tesoura de Iris Reta_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 38
-        width: 173
-        height: 86
+        x: 29
+        y: 47
+        width: 214
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f61926e82f0277940800000000000000
-      internalID: 5293736113140306287
+      spriteID: 3365709e9875ad460800000000000000
+      internalID: 7267217198547424819
       vertices: []
       indices: 
       edges: []
@@ -176,8 +176,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Tesoura de Iris Reta 1_0: 5293736113140306287
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

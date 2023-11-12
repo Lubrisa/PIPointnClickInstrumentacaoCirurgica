@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Bruenings_0"
       rect:
         serializedVersion: 2
-        x: 24
-        y: 11
-        width: 115
-        height: 137
+        x: 29
+        y: 13
+        width: 143
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

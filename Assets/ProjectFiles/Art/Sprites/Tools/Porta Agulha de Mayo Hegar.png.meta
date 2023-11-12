@@ -149,10 +149,10 @@ TextureImporter:
       name: Porta Agulha de Mayo Hegar_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 151
-        height: 147
+        x: 11
+        y: 11
+        width: 187
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

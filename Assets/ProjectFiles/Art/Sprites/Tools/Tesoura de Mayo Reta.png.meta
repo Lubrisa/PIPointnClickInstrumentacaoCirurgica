@@ -149,10 +149,10 @@ TextureImporter:
       name: Tesoura de Mayo Reta_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 12
-        width: 154
-        height: 110
+        x: 7
+        y: 15
+        width: 191
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Backaus_0"
       rect:
         serializedVersion: 2
-        x: 36
+        x: 44
         y: 2
-        width: 89
-        height: 160
+        width: 111
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

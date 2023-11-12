@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a de Crile Curva_0"
       rect:
         serializedVersion: 2
-        x: 6
-        y: 57
-        width: 153
-        height: 58
+        x: 7
+        y: 70
+        width: 190
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

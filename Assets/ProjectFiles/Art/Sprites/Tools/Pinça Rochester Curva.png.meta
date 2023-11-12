@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Rochester Curva_0"
       rect:
         serializedVersion: 2
-        x: 19
-        y: 28
-        width: 178
-        height: 105
+        x: 23
+        y: 34
+        width: 221
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Doyen para Campo_0"
       rect:
         serializedVersion: 2
-        x: 12
-        y: 21
-        width: 130
-        height: 122
+        x: 15
+        y: 26
+        width: 161
+        height: 151
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

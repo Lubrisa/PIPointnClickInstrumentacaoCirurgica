@@ -149,10 +149,10 @@ TextureImporter:
       name: "Pin\xE7a Adson com Dente_0"
       rect:
         serializedVersion: 2
-        x: 11
-        y: 71
-        width: 135
-        height: 21
+        x: 13
+        y: 87
+        width: 168
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

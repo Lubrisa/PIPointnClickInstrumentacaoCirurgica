@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 79db902d2c7c83e47beb839b66637d6f
+guid: 483e20775e42db247a36e92edd6b1da8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8500926479520658597
-    second: "Pin\xE7a Mixter_0"
+      213: 2301050135673351307
+    second: "Pin\xE7a Mixter c\xF3pia_0"
   - first:
-      213: 6344066977426581536
-    second: "Pin\xE7a Mixter_1"
+      213: 1611500227208198758
+    second: "Pin\xE7a Mixter c\xF3pia_1"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pin\xE7a Mixter_0"
+      name: "Pin\xE7a Mixter c\xF3pia_0"
       rect:
         serializedVersion: 2
-        x: 15
-        y: 16
-        width: 187
-        height: 129
+        x: 18
+        y: 20
+        width: 232
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a47a81e79b59f570800000000000000
-      internalID: 8500926479520658597
+      spriteID: b8cac2b28e8feef10800000000000000
+      internalID: 2301050135673351307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pin\xE7a Mixter_1"
+      name: "Pin\xE7a Mixter c\xF3pia_1"
       rect:
         serializedVersion: 2
-        x: 89
-        y: 8
-        width: 24
-        height: 9
+        x: 110
+        y: 10
+        width: 29
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0282cccbd47aa0850800000000000000
-      internalID: 6344066977426581536
+      spriteID: 66ab4362be23d5610800000000000000
+      internalID: 1611500227208198758
       vertices: []
       indices: 
       edges: []

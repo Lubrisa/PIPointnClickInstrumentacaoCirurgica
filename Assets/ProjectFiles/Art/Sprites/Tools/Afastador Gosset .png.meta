@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Afastador Gosset _0: 7862255754732435444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

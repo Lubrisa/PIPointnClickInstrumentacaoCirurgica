@@ -248,7 +248,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Agulhas_0: 5171776706224177900
+      Agulhas_1: -7524399255395569776
+      Agulhas_2: 1747647340867448805
+      Agulhas_3: 9199517358274301515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

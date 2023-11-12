@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Afastador Farabeuf_0: 7142319075860585803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Afastador Autostatico_0: -348427473374032764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

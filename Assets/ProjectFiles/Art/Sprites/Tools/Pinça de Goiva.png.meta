@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a de Goiva_0": -8777337059631097503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

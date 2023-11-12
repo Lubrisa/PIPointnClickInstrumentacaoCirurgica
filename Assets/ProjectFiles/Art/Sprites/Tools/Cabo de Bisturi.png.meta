@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cabo de Bisturi_0: 4062263359850106809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

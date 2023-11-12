@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cureta _0: -7142847537527273215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

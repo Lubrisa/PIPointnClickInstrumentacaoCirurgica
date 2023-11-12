@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Pin\xE7a Baioneta_0": -3267730166775590584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

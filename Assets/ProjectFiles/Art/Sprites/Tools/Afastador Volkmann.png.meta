@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Afastador Volkmann_0: -8126326604200835689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

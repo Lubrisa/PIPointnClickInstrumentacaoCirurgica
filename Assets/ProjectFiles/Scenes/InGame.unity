@@ -241,8 +241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_maxToolModifier: 2
   m_startPosition: {x: -8.5, y: 4}
-  m_deltas: {x: 1.89, y: -1.8}
-  m_rowsQuantity: 10
+  m_deltas: {x: 2.125, y: -1.8}
+  m_rowsQuantity: 9
   m_toolPrefab: {fileID: 5438964351402121980, guid: 1298fe025fcf10749ae1b969bb20454b, type: 3}
 --- !u!1 &416273898
 GameObject:

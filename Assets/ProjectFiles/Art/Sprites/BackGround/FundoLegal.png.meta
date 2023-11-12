@@ -1,0 +1,1935 @@
+fileFormatVersion: 2
+guid: 22ac65c6069e7854cb901d2b89b1d09a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8409921542476773266
+    second: FundoLegal_0
+  - first:
+      213: 3483389196466862924
+    second: FundoLegal_1
+  - first:
+      213: -5762646003507439008
+    second: FundoLegal_2
+  - first:
+      213: -3056006237812149380
+    second: FundoLegal_3
+  - first:
+      213: 3801364570273522837
+    second: FundoLegal_4
+  - first:
+      213: 2507467288330430124
+    second: FundoLegal_5
+  - first:
+      213: 800057217687020497
+    second: FundoLegal_6
+  - first:
+      213: -8336861303648518703
+    second: FundoLegal_7
+  - first:
+      213: -2163103250538866205
+    second: FundoLegal_8
+  - first:
+      213: 6988743441667061389
+    second: FundoLegal_9
+  - first:
+      213: 5260697782689936210
+    second: FundoLegal_10
+  - first:
+      213: -7101385737518974489
+    second: FundoLegal_11
+  - first:
+      213: 784762459237670189
+    second: FundoLegal_12
+  - first:
+      213: -8695560822741632375
+    second: FundoLegal_13
+  - first:
+      213: -8489408708064936809
+    second: FundoLegal_14
+  - first:
+      213: -397645906740388978
+    second: FundoLegal_15
+  - first:
+      213: 6319410898492335560
+    second: FundoLegal_16
+  - first:
+      213: -3185005380317252188
+    second: FundoLegal_17
+  - first:
+      213: 7801073023318695041
+    second: FundoLegal_18
+  - first:
+      213: -6411480018230472030
+    second: FundoLegal_19
+  - first:
+      213: -7312669133682600848
+    second: FundoLegal_20
+  - first:
+      213: 262342176494237574
+    second: FundoLegal_21
+  - first:
+      213: -1648078502459719183
+    second: FundoLegal_22
+  - first:
+      213: -5061441061766585125
+    second: FundoLegal_23
+  - first:
+      213: -6152634582557773911
+    second: FundoLegal_24
+  - first:
+      213: -4573243036090825489
+    second: FundoLegal_25
+  - first:
+      213: -8200675924331275388
+    second: FundoLegal_26
+  - first:
+      213: -2894624121189847088
+    second: FundoLegal_27
+  - first:
+      213: -2075407276997812248
+    second: FundoLegal_28
+  - first:
+      213: 4469814178456233343
+    second: FundoLegal_29
+  - first:
+      213: 1810291412924677077
+    second: FundoLegal_30
+  - first:
+      213: -3793955512501723171
+    second: FundoLegal_31
+  - first:
+      213: -9174649797355290877
+    second: FundoLegal_32
+  - first:
+      213: -6851202743372013991
+    second: FundoLegal_33
+  - first:
+      213: 639435024183256790
+    second: FundoLegal_34
+  - first:
+      213: 1459049946182949699
+    second: FundoLegal_35
+  - first:
+      213: -3181343679913855309
+    second: FundoLegal_36
+  - first:
+      213: -7909634392127580256
+    second: FundoLegal_37
+  - first:
+      213: -3387339622210040252
+    second: FundoLegal_38
+  - first:
+      213: 9127185517596593569
+    second: FundoLegal_39
+  - first:
+      213: -2774720368755166599
+    second: FundoLegal_40
+  - first:
+      213: 3948051909143047463
+    second: FundoLegal_41
+  - first:
+      213: 7557920779516243692
+    second: FundoLegal_42
+  - first:
+      213: -1311194853750273219
+    second: FundoLegal_43
+  - first:
+      213: 8770922549904718781
+    second: FundoLegal_44
+  - first:
+      213: 3284452680104988663
+    second: FundoLegal_45
+  - first:
+      213: 6136588552946109462
+    second: FundoLegal_46
+  - first:
+      213: 1818104948666243170
+    second: FundoLegal_47
+  - first:
+      213: 1646343418451530853
+    second: FundoLegal_48
+  - first:
+      213: -8810744601530622977
+    second: FundoLegal_49
+  - first:
+      213: 6885486618854156783
+    second: FundoLegal_50
+  - first:
+      213: -3003034987303589860
+    second: FundoLegal_51
+  - first:
+      213: 481665050760076434
+    second: FundoLegal_52
+  - first:
+      213: 3046930533714602425
+    second: FundoLegal_53
+  - first:
+      213: -6808114823827680853
+    second: FundoLegal_54
+  - first:
+      213: -5286334878819165757
+    second: FundoLegal_55
+  - first:
+      213: 7261918108736329197
+    second: FundoLegal_56
+  - first:
+      213: -190636581160597353
+    second: FundoLegal_57
+  - first:
+      213: -2764990303074630753
+    second: FundoLegal_58
+  - first:
+      213: -8402633674421979636
+    second: FundoLegal_59
+  - first:
+      213: 7393144888447827885
+    second: FundoLegal_60
+  - first:
+      213: -5494349854112611504
+    second: FundoLegal_61
+  - first:
+      213: -7945365960688360859
+    second: FundoLegal_62
+  - first:
+      213: 1559368259990450819
+    second: FundoLegal_63
+  - first:
+      213: -1817657595270377938
+    second: FundoLegal_64
+  - first:
+      213: -9031603835153239654
+    second: FundoLegal_65
+  - first:
+      213: -3089431651986760019
+    second: FundoLegal_66
+  - first:
+      213: 362578667785201242
+    second: FundoLegal_67
+  - first:
+      213: -1313384442946062374
+    second: FundoLegal_68
+  - first:
+      213: -246096186828742258
+    second: FundoLegal_69
+  - first:
+      213: 524516434616653602
+    second: FundoLegal_70
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FundoLegal_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297bb30d51b06b470800000000000000
+      internalID: 8409921542476773266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 833
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b37d5b40c775030800000000000000
+      internalID: 3483389196466862924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a5d9addf7f600b0800000000000000
+      internalID: -5762646003507439008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 833
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7334d3a482e695d0800000000000000
+      internalID: -3056006237812149380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594a8e8afe821c430800000000000000
+      internalID: 3801364570273522837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 833
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6e8dea6305cc220800000000000000
+      internalID: 2507467288330430124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_6
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3e834fccf5a1b00800000000000000
+      internalID: 800057217687020497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 833
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd745e90d48d4c80800000000000000
+      internalID: -8336861303648518703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_8
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e95323ed0d1bf1e0800000000000000
+      internalID: -2163103250538866205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_9
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 833
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86f7ead1210df060800000000000000
+      internalID: 6988743441667061389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_10
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2533befc2c0c10940800000000000000
+      internalID: 5260697782689936210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_11
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 833
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9f726eb4fc27d90800000000000000
+      internalID: -7101385737518974489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_12
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 904
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d5cef7c4904ea00800000000000000
+      internalID: 784762459237670189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_13
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 833
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a7ea5b089235780800000000000000
+      internalID: -8695560822741632375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 117
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c7ea242cf8f2a80800000000000000
+      internalID: -8489408708064936809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 222
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bd95697274b7af0800000000000000
+      internalID: -397645906740388978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 634
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c52e520bbe03b750800000000000000
+      internalID: 6319410898492335560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 563
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a57b724b769cc3d0800000000000000
+      internalID: -3185005380317252188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 634
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c1bc5359af24c60800000000000000
+      internalID: 7801073023318695041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 563
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a29bd494e8d507a0800000000000000
+      internalID: -6411480018230472030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_20
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 634
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07492e6ca2e248a90800000000000000
+      internalID: -7312669133682600848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 563
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687ba8fc1d604a300800000000000000
+      internalID: 262342176494237574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_22
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 634
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f14eea7559d029e0800000000000000
+      internalID: -1648078502459719183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_23
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 563
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4a3d5cb2622c9b0800000000000000
+      internalID: -5061441061766585125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_24
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 634
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af2cd9f1737d9aa0800000000000000
+      internalID: -6152634582557773911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_25
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 563
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4074250b39880c0800000000000000
+      internalID: -4573243036090825489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_26
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 634
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bd22422b8513e80800000000000000
+      internalID: -8200675924331275388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_27
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 563
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfa33ab2ba34d7d0800000000000000
+      internalID: -2894624121189847088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_28
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 634
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd84ad31ca233e0800000000000000
+      internalID: -2075407276997812248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7563ee2058f70e30800000000000000
+      internalID: 4469814178456233343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_30
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbb05fd2727f1910800000000000000
+      internalID: 1810291412924677077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 330
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf13b70099295bc0800000000000000
+      internalID: -3793955512501723171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_32
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f37026e981da080800000000000000
+      internalID: -9174649797355290877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_33
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 330
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e11257763abe0a0800000000000000
+      internalID: -6851202743372013991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_34
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6e26144cabfd800800000000000000
+      internalID: 639435024183256790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_35
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 330
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b99c712369f3410800000000000000
+      internalID: 1459049946182949699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6fc4257c899d3d0800000000000000
+      internalID: -3181343679913855309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_37
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 330
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7d50a6d655b3290800000000000000
+      internalID: -7909634392127580256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_38
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e809c7f80cdf0d0800000000000000
+      internalID: -3387339622210040252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_39
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 330
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad4f6fced64aae70800000000000000
+      internalID: 9127185517596593569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_40
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972be4596863e79d0800000000000000
+      internalID: -2774720368755166599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_41
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 330
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d264f2b4c4ac630800000000000000
+      internalID: 3948051909143047463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_42
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 401
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeeb97c7e023e860800000000000000
+      internalID: 7557920779516243692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_43
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 330
+        width: 161
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b05ee3a33bdcde0800000000000000
+      internalID: -1311194853750273219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 170
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbb88bb69398b970800000000000000
+      internalID: 8770922549904718781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffcc3f8f48b49d20800000000000000
+      internalID: 3284452680104988663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_46
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 131
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cc41f96ca892550800000000000000
+      internalID: 6136588552946109462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 60
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26891ad61d43b3910800000000000000
+      internalID: 1818104948666243170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_48
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 131
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5641b1bcd9cf8d610800000000000000
+      internalID: 1646343418451530853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_49
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 60
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb931b5772f9b580800000000000000
+      internalID: -8810744601530622977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_50
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 131
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9e18659992e8f50800000000000000
+      internalID: 6885486618854156783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_51
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 60
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1823bdf6931356d0800000000000000
+      internalID: -3003034987303589860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_52
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 131
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c564bcfc73fa600800000000000000
+      internalID: 481665050760076434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_53
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 60
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9a9555d2fd84a20800000000000000
+      internalID: 3046930533714602425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_54
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 131
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba11eaf73a7b481a0800000000000000
+      internalID: -6808114823827680853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_55
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 60
+        width: 235
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9d9389f6a23a6b0800000000000000
+      internalID: -5286334878819165757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_56
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 131
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5943b6b0487c460800000000000000
+      internalID: 7261918108736329197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_57
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 60
+        width: 221
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7984aba1a09ba5df0800000000000000
+      internalID: -190636581160597353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_58
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9346d908f7c0a9d0800000000000000
+      internalID: -2764990303074630753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_59
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06b7523139d36b80800000000000000
+      internalID: -8402633674421979636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_60
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf7de00b1ab99660800000000000000
+      internalID: 7393144888447827885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_61
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05306e10be520c3b0800000000000000
+      internalID: -5494349854112611504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_62
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562a0be41c36cb190800000000000000
+      internalID: -7945365960688360859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_63
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ffbaab2df3a510800000000000000
+      internalID: 1559368259990450819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_64
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 0
+        width: 146
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e4e962c0266c6e0800000000000000
+      internalID: -1817657595270377938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_65
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 0
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b2a5d92c49a280800000000000000
+      internalID: -9031603835153239654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_66
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 0
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae1b71f7422025d0800000000000000
+      internalID: -3089431651986760019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_67
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 0
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56a8789063280500800000000000000
+      internalID: 362578667785201242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_68
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 0
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7fca8cecbe5cde0800000000000000
+      internalID: -1313384442946062374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_69
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 0
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81ae7b62d0b59cf0800000000000000
+      internalID: -246096186828742258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoLegal_70
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2271e241be4774700800000000000000
+      internalID: 524516434616653602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FundoLegal_0: 8409921542476773266
+      FundoLegal_1: 3483389196466862924
+      FundoLegal_10: 5260697782689936210
+      FundoLegal_11: -7101385737518974489
+      FundoLegal_12: 784762459237670189
+      FundoLegal_13: -8695560822741632375
+      FundoLegal_14: -8489408708064936809
+      FundoLegal_15: -397645906740388978
+      FundoLegal_16: 6319410898492335560
+      FundoLegal_17: -3185005380317252188
+      FundoLegal_18: 7801073023318695041
+      FundoLegal_19: -6411480018230472030
+      FundoLegal_2: -5762646003507439008
+      FundoLegal_20: -7312669133682600848
+      FundoLegal_21: 262342176494237574
+      FundoLegal_22: -1648078502459719183
+      FundoLegal_23: -5061441061766585125
+      FundoLegal_24: -6152634582557773911
+      FundoLegal_25: -4573243036090825489
+      FundoLegal_26: -8200675924331275388
+      FundoLegal_27: -2894624121189847088
+      FundoLegal_28: -2075407276997812248
+      FundoLegal_29: 4469814178456233343
+      FundoLegal_3: -3056006237812149380
+      FundoLegal_30: 1810291412924677077
+      FundoLegal_31: -3793955512501723171
+      FundoLegal_32: -9174649797355290877
+      FundoLegal_33: -6851202743372013991
+      FundoLegal_34: 639435024183256790
+      FundoLegal_35: 1459049946182949699
+      FundoLegal_36: -3181343679913855309
+      FundoLegal_37: -7909634392127580256
+      FundoLegal_38: -3387339622210040252
+      FundoLegal_39: 9127185517596593569
+      FundoLegal_4: 3801364570273522837
+      FundoLegal_40: -2774720368755166599
+      FundoLegal_41: 3948051909143047463
+      FundoLegal_42: 7557920779516243692
+      FundoLegal_43: -1311194853750273219
+      FundoLegal_44: 8770922549904718781
+      FundoLegal_45: 3284452680104988663
+      FundoLegal_46: 6136588552946109462
+      FundoLegal_47: 1818104948666243170
+      FundoLegal_48: 1646343418451530853
+      FundoLegal_49: -8810744601530622977
+      FundoLegal_5: 2507467288330430124
+      FundoLegal_50: 6885486618854156783
+      FundoLegal_51: -3003034987303589860
+      FundoLegal_52: 481665050760076434
+      FundoLegal_53: 3046930533714602425
+      FundoLegal_54: -6808114823827680853
+      FundoLegal_55: -5286334878819165757
+      FundoLegal_56: 7261918108736329197
+      FundoLegal_57: -190636581160597353
+      FundoLegal_58: -2764990303074630753
+      FundoLegal_59: -8402633674421979636
+      FundoLegal_6: 800057217687020497
+      FundoLegal_60: 7393144888447827885
+      FundoLegal_61: -5494349854112611504
+      FundoLegal_62: -7945365960688360859
+      FundoLegal_63: 1559368259990450819
+      FundoLegal_64: -1817657595270377938
+      FundoLegal_65: -9031603835153239654
+      FundoLegal_66: -3089431651986760019
+      FundoLegal_67: 362578667785201242
+      FundoLegal_68: -1313384442946062374
+      FundoLegal_69: -246096186828742258
+      FundoLegal_7: -8336861303648518703
+      FundoLegal_70: 524516434616653602
+      FundoLegal_8: -2163103250538866205
+      FundoLegal_9: 6988743441667061389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

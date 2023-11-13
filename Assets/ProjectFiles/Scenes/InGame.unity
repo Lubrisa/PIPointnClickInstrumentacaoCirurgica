@@ -1710,9 +1710,9 @@ MonoBehaviour:
   m_onToolListUpdate: {fileID: 11400000, guid: 952fe056c7089dd4b8ac9b89024916ed, type: 2}
   m_onWrongAnswer: {fileID: 11400000, guid: 259555a8901418c4a90b2cce23da99e7, type: 2}
   m_onRightAnswer: {fileID: 11400000, guid: ff8019e8e26432e4cbe9ed108913aa2a, type: 2}
-  m_startPosition: {x: -2, y: 2}
-  m_deltas: {x: 1.5, y: -1.5}
-  m_rowsQuantity: 4
+  m_startPosition: {x: -2.5, y: 2.5}
+  m_deltas: {x: 1.3, y: -1}
+  m_rowsQuantity: 5
 --- !u!212 &1670882542
 SpriteRenderer:
   m_ObjectHideFlags: 0

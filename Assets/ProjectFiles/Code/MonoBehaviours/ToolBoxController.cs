@@ -96,7 +96,7 @@ namespace PointnClick
             bool answerIsRight = m_toolsList.All(tool => tool.CheckOperationMatch(m_operationType));
 
             if (answerIsRight)
-                SceneManager.LoadScene(5); //m_onRightAnswer.Raise();
+                SceneManager.LoadScene(5);
             else
             {
                 m_onWrongAnswer.Raise();

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VITORIA_0: 770356110966372925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

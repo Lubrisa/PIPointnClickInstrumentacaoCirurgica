@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +7,6 @@ namespace PointnClick
     {
         [SerializeField] private UnityEvent m_onAnimationEnd;
 
-        public void ReorganizeTools() => m_onAnimationEnd.Invoke(); 
+        public void ReorganizeTools() => m_onAnimationEnd.Invoke();
     }
 }

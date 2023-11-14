@@ -539,17 +539,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ol\xE1, seja muito bem vindo ao jogo de sele\xE7\xE3o de pin\xE7as da
-    turma de intrumenta\xE7\xE3o cir\xFArgica do SENAC!\n\n\nPara jogar, selecione
-    uma especialidade cir\xFArgica dentre as dispon\xEDveis na pr\xF3xima tela. Logo
-    em seguida clique no bot\xE3o jogar para iniciar a partida. \n\r\nSegure o bot\xE3o
-    esquerdo do mouse sobre uma ferramenta para poder arrast\xE1-la, a bandeja em
-    que as ferramentas ser\xE3o depositadas \xE9 acessada por um bot\xE3o no inferior
-    da tela. Caso voc\xEA mude de ideia sobre uma das ferramentas na bandeja, apenas
-    arraste a ferramenta para fora dela que a ferramenta ir\xE1 retornar a mesa de
-    sele\xE7\xE3o.\n\nAp\xF3s preencher a bandeja com quantidade de ferramentas espec\xEDficas
-    da modalidade aperte o bot\xE3o de confirma\xE7\xE3o. Voc\xEA tem 3 tentativas
-    para colocar s\xF3 as ferramentas corretas na bandeja.\r"
+  m_text: "Ol\xE1, seja muito bem-vindo ao jogo dos instrumentais da turma 256989
+    de instrumenta\xE7\xE3o cir\xFArgica do SENAC!\n\nPara jogar, selecione um tempo
+    cir\xFArgico, dentre os dispon\xEDveis na pr\xF3xima tela. \nLogo em seguida,
+    clique no bot\xE3o jogar para iniciar a partida. \n\nSegure o bot\xE3o esquerdo
+    do mouse sobre um instrumental e arraste para a bandeja, est\xE1  \xE9 acessada
+    por um bot\xE3o no inferior da tela. \n\nCaso voc\xEA mude de ideia sobre um
+    dos instrumentais da bandeja, apenas arraste o instrumento para fora da mesma,
+    e ele ir\xE1 retornar a mesa de sele\xE7\xE3o.\n\nAp\xF3s preencher a bandeja
+    com os instrumentais espec\xEDficos do tempo cir\xFArgico, aperte o bot\xE3o
+    de confirma\xE7\xE3o.\n Voc\xEA ter\xE1 3 tentativas para selecionar os instrumentais
+    corretos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -576,7 +576,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.7
+  m_fontSize: 69.65
   m_fontSizeBase: 46
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1175,7 +1175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 330, y: -420}
+  m_AnchoredPosition: {x: 232, y: -420}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1686672996

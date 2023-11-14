@@ -544,12 +544,11 @@ MonoBehaviour:
     cir\xFArgico, dentre os dispon\xEDveis na pr\xF3xima tela. \nLogo em seguida,
     clique no bot\xE3o jogar para iniciar a partida. \n\nSegure o bot\xE3o esquerdo
     do mouse sobre um instrumental e arraste para a bandeja, est\xE1  \xE9 acessada
-    por um bot\xE3o no inferior da tela. \n\nCaso voc\xEA mude de ideia sobre um
-    dos instrumentais da bandeja, apenas arraste o instrumento para fora da mesma,
-    e ele ir\xE1 retornar a mesa de sele\xE7\xE3o.\n\nAp\xF3s preencher a bandeja
-    com os instrumentais espec\xEDficos do tempo cir\xFArgico, aperte o bot\xE3o
-    de confirma\xE7\xE3o.\n Voc\xEA ter\xE1 3 tentativas para selecionar os instrumentais
-    corretos."
+    pressionando a tecla espa\xE7o.\n\nCaso voc\xEA mude de ideia sobre um dos instrumentais
+    da bandeja, apenas arraste o instrumento para fora da mesma, e ele ir\xE1 retornar
+    a mesa de sele\xE7\xE3o.\n\nAp\xF3s preencher a bandeja com os instrumentais
+    espec\xEDficos do tempo cir\xFArgico, aperte o bot\xE3o de confirma\xE7\xE3o.\n
+    Voc\xEA ter\xE1 3 tentativas para selecionar os instrumentais corretos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

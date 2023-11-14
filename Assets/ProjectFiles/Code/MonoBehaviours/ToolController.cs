@@ -2,7 +2,6 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 using ScriptableObjectArchitecture;
-using ModestTree;
 
 namespace PointnClick
 {
@@ -10,6 +9,8 @@ namespace PointnClick
     {
         private ToolData m_toolData;
         private Vector2 m_currentPosition;
+        [ContextMenu("LogCurrentPosition")]
+        public void LogCurrentPosition() => Debug.Log(m_currentPosition);
 
         [SerializeField] private ToolnameTooltip m_tooltipPrefab;
         private ToolnameTooltip m_tooltipInstance;

@@ -26,6 +26,7 @@ namespace PointnClick
             if (clip == m_audioSource.clip) return;
 
             m_audioSource.clip = clip;
+            m_audioSource.Play();
         }
     }
 }
